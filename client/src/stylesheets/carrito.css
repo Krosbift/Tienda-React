@@ -1,0 +1,119 @@
+.contenedor-compra-carrito{
+    margin: 100px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bought{
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-comprado{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-cart{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contenedor-imagen-comprado{
+    height: 100%;
+    width: 20%;
+    max-width: 20%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-imagen-comprado img{
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.contenedor-producto-comprado{
+    width: 25%;
+}
+
+.contenedor-precio-comprado{
+    width: 25%;   
+}
+
+.contenedor-cantidad-comprado{
+    width: 20%;
+}
+
+.division{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #000;
+
+}
+
+.delete-add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 100%;
+    width: 10%;
+}
+
+.delete-add a{
+    width: 40%;
+    height: 30%;
+    margin-right: 10%;
+}
+
+.delete{
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+
+.add{
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #3e2462;
+    color: #fff;
+    border: none;
+}
+
+.contenedor-subtotal{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.text-subtotal{
+    width: 20%;
+}
+
+.spacer{
+    width: 70%;
+}
+
+.buy-button{
+    width: 10%;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #3e2462;
+    color: #fff;
+    border: none;
+}
